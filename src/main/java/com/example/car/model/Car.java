@@ -16,4 +16,9 @@ public class Car {
         System.out.println(engine.start());
         System.out.println("Car is driving!");
     }
+
+    public void stop() {
+        System.out.println("Car has stopped.");
+    }
+
 }
