@@ -15,4 +15,9 @@ public class Engine {
     public String start() {
         return "Engine started using " + fuel.getFuelType();
     }
+
+    public void stop() {
+        System.out.println("Engine turned off.");
+    }
+
 }
